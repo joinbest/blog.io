@@ -37,6 +37,7 @@ header-img: "img/zhihu.jpg"
 master|192.168.111.3|主库
 slave1|192.168.111.4|从库
 slave2|192.168.111.5|从库
+
 ```
 [root@localhost ~]# vim /etc/hosts
 
@@ -77,7 +78,9 @@ slave2
 2019-05-18T08:43:11.094845Z 1 [Note] A temporary password is generated for root@localhost: 2Gk75Zvp&!-y
 
 ```
+
 - 配置
+
 ```
 主库操作
 新建配置文件
